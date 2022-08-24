@@ -2,8 +2,8 @@ package br.com.open.data.consume.commom.paginator;
 
 public interface PaginatorInterface<T> {
 
-    T setPage();
+    T setPage(Integer page);
 
-    T setIntens();
+    T setIntens(Integer numberItens);
     
 }
